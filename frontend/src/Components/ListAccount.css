@@ -1,0 +1,22 @@
+tr.trHead>th:first-child,tr.trHead>th:nth-child(4),tr.trHead>th:nth-child(5),tr.trHead>th:nth-child(9), tr.trHead>th:last-child,
+tr.trBody > td:first-child,tr.trBody > td:nth-child(4),tr.trBody > td:nth-child(5),tr.trBody > td:nth-child(9), tr.trBody > td:last-child{
+    display: none;
+}
+.table>thead>tr>th {
+    text-transform: capitalize;
+}
+
+.table>:not(caption)>*>* {
+    text-align: left;
+    padding: 10px 35px;
+}
+
+.renderDataHldrCls {
+    padding: 0px 3rem;
+    font-size: 15px;
+}
+
+.padding-top-80 {
+    padding-top: 80px;
+}
+

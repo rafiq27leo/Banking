@@ -1,0 +1,68 @@
+@import url('http://fonts.googleapis.com/css?family=Fira+Sans:400,500,600,700,800');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #304c67 !important;
+  min-height: 100vh;
+  display: flex;
+  font-weight: 400;
+}
+
+h1,h2,h3,h4,h5,h6,span,label {
+  font-weight: 500;
+}
+
+html,body,.App, .auth-wrapper{
+  width: 100vw;
+  height: 100vh;
+}
+
+
+.navbar-light{
+  background-color: #fff;
+  box-shadow: 0px 14px 80px rgb(34,35,58,0.2);
+}
+
+.auth-wrapper{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
+  position: absolute;
+}
+
+.auth-wrapper h3{
+  line-height: 1;
+  margin: 0;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.auth-inner{
+  margin: auto;
+  width: 450px;
+  border-radius: 5px;
+  background-color: #fff;
+  padding: 25px 55px 25px 55px;
+  margin-top: 100px;
+}
+
+.form-group {
+  padding-bottom: 20px;
+}
+
+li.nav-item > button {
+  background: dodgerblue;
+  border: none;
+  margin: 3px 10px;
+  padding: 5px 15px;
+  color: #fff;
+  border-radius: 5px;
+}
+
+li.nav-item {
+  padding: 0px 5px;
+}

@@ -1,0 +1,105 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.padding-top-100{
+  padding-top: 100px;
+}
+
+.header-module-title {
+  color: #fff;
+}
+
+.list-account-details > input {
+  border: 1px solid gray;
+  border-radius: 5px;
+  width: 80vh;
+  padding: 5px 15px;
+}
+
+.filter-label-p{
+  font-size: 20px;
+  display: inline-block;
+  padding-right: 15px;
+}
+
+.list-account-details {
+  align-items: flex-start;
+  text-align: left;
+  padding: 5px 50px;
+}
+
+.new-acct-form-hldr{
+  background: #fff;
+    margin: 2em;
+    border-radius: 5px;
+    padding: 25px 0px;
+}
+
+.new-acct-form{
+  text-align: left;
+}
+
+.navbar-collapse{
+  flex-grow: 0 !important;
+}
+
+.new-acct-form-field{
+  display: inline-block;
+    padding-right: 15px;
+    text-align: left;
+}
+
+.new-transfer-form-hldr{
+  background: #fff;
+  margin: auto;
+  border-radius: 5px;
+  padding: 25px 20px;
+  width: 410px;
+  margin-top: 30px;
+}
+
+.new-transfer-form-hldr > div:first-child{
+  display: flex;
+  font-size: 14px;
+  flex-direction: row;
+}
+
+.new-transfer-form-hldr > div >p:first-child{
+  padding-right: 50px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
