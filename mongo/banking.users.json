@@ -1,0 +1,40 @@
+[{
+  "_id": {
+    "$oid": "66c85fdddad89477986bca7d"
+  },
+  "name": "Rafiq",
+  "email": "rafiq.ace5@gmail.com",
+  "mobile": 9916829353,
+  "password": "$2b$10$E/nVm5O047iSHzl2HefEHOBbD.M4VMRegAQ0JWMpDuHLpAQmxKcqG",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66c89cf7fdf9f81647e03380"
+  },
+  "name": "Smith",
+  "email": "smith@gmail.com",
+  "mobile": 9059001129,
+  "password": "$2b$10$SQQ3y7sSM428nXL.xjyVE.f5vvBcobfjObJktevRlvL4.mwUPcJ0e",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66c8de715432416dd629fb8f"
+  },
+  "name": "Raja",
+  "email": "raja@gmail.com",
+  "mobile": 9019031000,
+  "password": "$2b$10$0OhTocLb3GccpzXb/G6c/ehOpozacL9.oReXrjSKK3nq2.y9qCUyK",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66c8de985432416dd629fb91"
+  },
+  "name": "Sudha",
+  "email": "sudha@gmail.com",
+  "mobile": 9910223391,
+  "password": "$2b$10$nYD.ZrDBNgBPs4sIjk19reaG4lBwH9Wxh3Mb5jI/N7bg6phJ6RqR2",
+  "__v": 0
+}]

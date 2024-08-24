@@ -1,0 +1,95 @@
+[{
+  "_id": {
+    "$oid": "66c88a5018ea9ecc57457e2a"
+  },
+  "accountNumber": "BS52410256",
+  "fullName": "Smith  S",
+  "fname": "Smith",
+  "lname": " S",
+  "mobile": 9019020012,
+  "address": "Brigade Road Bangalore",
+  "balance": 150000,
+  "__v": 0,
+  "email": "smith@gmail.com",
+  "password": "smith123"
+},
+{
+  "_id": {
+    "$oid": "66c8aad5fdf9f81647e0339d"
+  },
+  "accountNumber": "BS16817954",
+  "fullName": "Peter Rock",
+  "fname": "Peter",
+  "lname": "Rock",
+  "mobile": 9101415161,
+  "address": "Main market ,Kolkata",
+  "balance": 110000,
+  "__v": 0,
+  "email": "peter@gmail.com",
+  "password": "peter@gmail.com",
+  "status": "Active"
+},
+{
+  "_id": {
+    "$oid": "66c8abcbfdf9f81647e033a0"
+  },
+  "accountNumber": "BS30694524",
+  "fullName": "Rosy S",
+  "fname": "Rosy",
+  "lname": "S",
+  "mobile": 9242625141,
+  "address": "Line road behind market,Mumbai",
+  "balance": 115000,
+  "__v": 0,
+  "email": "rosy@gmail.com",
+  "password": "rosy123",
+  "status": "Active"
+},
+{
+  "_id": {
+    "$oid": "66c8ac60fdf9f81647e033a3"
+  },
+  "accountNumber": "BS28196993",
+  "fullName": "Rahul Kumar",
+  "fname": "Rahul",
+  "lname": "Kumar",
+  "mobile": 7145628100,
+  "address": "Behind jain school,Pune",
+  "balance": 121000,
+  "__v": 0,
+  "email": "rahul@gmail.com",
+  "password": "rahul123",
+  "status": "Active"
+},
+{
+  "_id": {
+    "$oid": "66c8ef41af2c8b527fd81d84"
+  },
+  "accountNumber": "BS37595080",
+  "fullName": "Sham Sundar",
+  "fname": "Sham",
+  "lname": "Sundar",
+  "mobile": 9011221121,
+  "address": "Karvar Nagar,Bangalore",
+  "balance": 10000,
+  "status": "Active",
+  "__v": 0,
+  "email": "sham@gmail.com",
+  "password": "sham123"
+},
+{
+  "_id": {
+    "$oid": "66c8f50cde0eee4b209dae1d"
+  },
+  "accountNumber": "BS60917980",
+  "fullName": "Umar Khazi",
+  "fname": "Umar",
+  "lname": "Khazi",
+  "email": "umar@gmail.com",
+  "mobile": 9019029031,
+  "password": "$2b$10$GlTpdUpdoYDRSvGH8j/2b.tLpPlkKeaSgK9OP9ZQuuNz22ztTdUoG",
+  "address": "Kalyan Nagar,Bangalore",
+  "balance": 10000,
+  "status": "Active",
+  "__v": 0
+}]
