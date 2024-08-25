@@ -1,95 +1,684 @@
 [{
   "_id": {
-    "$oid": "66c88a5018ea9ecc57457e2a"
+    "$oid": "66c9dd4e73f21282b8a66294"
   },
-  "accountNumber": "BS52410256",
-  "fullName": "Smith  S",
-  "fname": "Smith",
-  "lname": " S",
-  "mobile": 9019020012,
-  "address": "Brigade Road Bangalore",
-  "balance": 150000,
-  "__v": 0,
-  "email": "smith@gmail.com",
-  "password": "smith123"
+  "accountNumber": "BS34453058",
+  "fullName": "John Abraham",
+  "fname": "John",
+  "lname": "Abraham",
+  "email": "john@gmail.com",
+  "mobile": 9901231231,
+  "password": "$2b$10$YVToB4DnDKS9Ca2ZNHsAV.QAWPB.aQMqw6/uF2nYTGt/hCpN9s.F6",
+  "address": "Newyork City,Newyork",
+  "status": "Active",
+  "balance": 9591.13,
+  "transactions": [
+    {
+      "date": {
+        "$date": "2024-08-24T13:36:15.867Z"
+      },
+      "amount": 50,
+      "description": "Sending Emergency Amt ",
+      "type": "debit"
+    },
+    {
+      "date": {
+        "$date": "2024-08-24T15:01:45.507Z"
+      },
+      "amount": 100,
+      "description": "Return Amount",
+      "type": "debit"
+    },
+    {
+      "date": {
+        "$date": "2024-08-24T15:05:21.189Z"
+      },
+      "amount": 200,
+      "description": "200 USD for Medical",
+      "type": "debit"
+    },
+    {
+      "date": {
+        "$date": "2024-08-24T15:38:22.288Z"
+      },
+      "amount": 122,
+      "description": "Send Rent 122 USD",
+      "type": "debit"
+    },
+    {
+      "date": {
+        "$date": "2024-08-24T15:44:55.180Z"
+      },
+      "amount": 900,
+      "description": "Testing Fund Transfer",
+      "type": "debit"
+    },
+    {
+      "date": {
+        "$date": "2024-08-25T07:06:08.683Z"
+      },
+      "amount": 106.43,
+      "description": "Sending 120 USD",
+      "type": "debit"
+    },
+    {
+      "date": {
+        "$date": "2024-08-25T08:12:26.569Z"
+      },
+      "amount": 10,
+      "description": "Sending 10 USD",
+      "type": "debit"
+    },
+    {
+      "date": {
+        "$date": "2024-08-25T08:13:24.035Z"
+      },
+      "amount": 88.69,
+      "description": "Sending 88.69 Euro",
+      "type": "debit"
+    }
+  ],
+  "__v": 29,
+  "role": "user"
 },
 {
   "_id": {
-    "$oid": "66c8aad5fdf9f81647e0339d"
+    "$oid": "66c9ddab73f21282b8a66297"
   },
-  "accountNumber": "BS16817954",
-  "fullName": "Peter Rock",
-  "fname": "Peter",
-  "lname": "Rock",
-  "mobile": 9101415161,
-  "address": "Main market ,Kolkata",
-  "balance": 110000,
-  "__v": 0,
-  "email": "peter@gmail.com",
-  "password": "peter@gmail.com",
-  "status": "Active"
+  "accountNumber": "BS29851242",
+  "fullName": "Suresh Cowhan",
+  "fname": "Suresh",
+  "lname": "Cowhan",
+  "email": "suresh@gmail.com",
+  "mobile": 9019031001,
+  "password": "$2b$10$P4h.t8wPE5JMgzY1deG3GOP1G3b1ZgHbJXgyJaqizqSydJ9BfIfC6",
+  "address": "Kormangala,Bangalore",
+  "status": "Active",
+  "balance": 10400,
+  "transactions": [
+    {
+      "date": {
+        "$date": "2024-08-24T13:36:15.912Z"
+      },
+      "amount": 50,
+      "type": "credit"
+    },
+    {
+      "date": {
+        "$date": "2024-08-24T15:01:45.533Z"
+      },
+      "amount": 100,
+      "type": "credit"
+    },
+    {
+      "date": {
+        "$date": "2024-08-24T15:05:21.220Z"
+      },
+      "amount": 200,
+      "type": "credit"
+    },
+    {
+      "date": {
+        "$date": "2024-08-24T15:47:28.277Z"
+      },
+      "amount": 1000,
+      "type": "credit"
+    },
+    {
+      "date": {
+        "$date": "2024-08-25T07:06:08.825Z"
+      },
+      "amount": 106.43,
+      "type": "credit"
+    },
+    {
+      "date": {
+        "$date": "2024-08-25T09:15:57.043Z"
+      },
+      "amount": 100,
+      "type": "credit"
+    }
+  ],
+  "__v": 6,
+  "role": "user"
 },
 {
   "_id": {
-    "$oid": "66c8abcbfdf9f81647e033a0"
+    "$oid": "66ca13f6a3439a4b0e7d03d7"
   },
-  "accountNumber": "BS30694524",
-  "fullName": "Rosy S",
-  "fname": "Rosy",
-  "lname": "S",
-  "mobile": 9242625141,
-  "address": "Line road behind market,Mumbai",
-  "balance": 115000,
-  "__v": 0,
-  "email": "rosy@gmail.com",
-  "password": "rosy123",
-  "status": "Active"
+  "accountNumber": "BS24065694",
+  "fullName": "Numan Ali",
+  "fname": "Numan",
+  "lname": "Ali",
+  "email": "numan@gmail.com",
+  "mobile": 9012229011,
+  "password": "$2b$10$kiBorXn1.OCVx5eZu6cu7eC0lJnq1ySP/HZZCmYD5BGq/pVHQyhYi",
+  "address": "Sultan pet,Bangalore",
+  "status": "Active",
+  "balance": 10727.720000000001,
+  "transactions": [
+    {
+      "date": {
+        "$date": "2024-08-25T07:10:33.058Z"
+      },
+      "amount": 133.04,
+      "type": "credit"
+    },
+    {
+      "date": {
+        "$date": "2024-08-25T07:12:22.068Z"
+      },
+      "amount": 133.04,
+      "type": "credit"
+    },
+    {
+      "date": {
+        "$date": "2024-08-25T07:12:41.646Z"
+      },
+      "amount": 133.04,
+      "type": "credit"
+    },
+    {
+      "date": {
+        "$date": "2024-08-25T07:21:28.264Z"
+      },
+      "amount": 133.04,
+      "type": "credit"
+    },
+    {
+      "date": {
+        "$date": "2024-08-25T07:24:45.138Z"
+      },
+      "amount": 133.04,
+      "type": "credit"
+    },
+    {
+      "date": {
+        "$date": "2024-08-25T08:49:35.113Z"
+      },
+      "amount": 120,
+      "type": "credit"
+    },
+    {
+      "date": {
+        "$date": "2024-08-25T09:17:04.713Z"
+      },
+      "amount": 10,
+      "type": "credit"
+    },
+    {
+      "date": {
+        "$date": "2024-08-25T09:18:44.795Z"
+      },
+      "amount": 10,
+      "type": "credit"
+    },
+    {
+      "date": {
+        "$date": "2024-08-25T09:19:23.921Z"
+      },
+      "amount": 10,
+      "type": "credit"
+    },
+    {
+      "date": {
+        "$date": "2024-08-25T09:19:27.689Z"
+      },
+      "amount": 10,
+      "type": "credit"
+    },
+    {
+      "date": {
+        "$date": "2024-08-25T09:20:35.499Z"
+      },
+      "amount": 10,
+      "type": "credit"
+    },
+    {
+      "date": {
+        "$date": "2024-08-25T09:22:54.060Z"
+      },
+      "amount": 10,
+      "type": "credit"
+    },
+    {
+      "date": {
+        "$date": "2024-08-25T09:23:54.207Z"
+      },
+      "amount": 10,
+      "type": "credit"
+    },
+    {
+      "date": {
+        "$date": "2024-08-25T09:24:28.078Z"
+      },
+      "amount": 10,
+      "type": "credit"
+    },
+    {
+      "date": {
+        "$date": "2024-08-25T09:26:17.499Z"
+      },
+      "amount": 10,
+      "type": "credit"
+    },
+    {
+      "date": {
+        "$date": "2024-08-25T09:26:45.483Z"
+      },
+      "amount": 10,
+      "type": "credit"
+    },
+    {
+      "date": {
+        "$date": "2024-08-25T09:27:38.187Z"
+      },
+      "amount": 10,
+      "type": "credit"
+    },
+    {
+      "date": {
+        "$date": "2024-08-25T09:28:13.549Z"
+      },
+      "amount": 10,
+      "type": "credit"
+    },
+    {
+      "date": {
+        "$date": "2024-08-25T09:31:02.376Z"
+      },
+      "amount": 10,
+      "type": "credit"
+    },
+    {
+      "date": {
+        "$date": "2024-08-25T09:33:13.834Z"
+      },
+      "amount": 30,
+      "type": "credit"
+    },
+    {
+      "date": {
+        "$date": "2024-08-25T10:36:58.957Z"
+      },
+      "amount": 20,
+      "type": "credit"
+    },
+    {
+      "date": {
+        "$date": "2024-08-25T10:41:23.147Z"
+      },
+      "amount": 88.69,
+      "type": "credit"
+    },
+    {
+      "date": {
+        "$date": "2024-08-25T10:51:09.379Z"
+      },
+      "amount": 75.17,
+      "type": "credit"
+    },
+    {
+      "date": {
+        "$date": "2024-08-25T10:58:48.151Z"
+      },
+      "amount": 100,
+      "type": "credit"
+    },
+    {
+      "date": {
+        "$date": "2024-08-25T11:32:24.205Z"
+      },
+      "amount": 88.69,
+      "type": "credit"
+    },
+    {
+      "date": {
+        "$date": "2024-08-25T11:33:32.893Z"
+      },
+      "amount": 75.17,
+      "type": "credit"
+    }
+  ],
+  "__v": 26,
+  "role": "user"
 },
 {
   "_id": {
-    "$oid": "66c8ac60fdf9f81647e033a3"
+    "$oid": "66cabe4f82bd614818255898"
   },
-  "accountNumber": "BS28196993",
+  "accountNumber": "BS35736369",
   "fullName": "Rahul Kumar",
   "fname": "Rahul",
   "lname": "Kumar",
-  "mobile": 7145628100,
-  "address": "Behind jain school,Pune",
-  "balance": 121000,
-  "__v": 0,
   "email": "rahul@gmail.com",
-  "password": "rahul123",
-  "status": "Active"
+  "mobile": 9012233778,
+  "password": "$2b$10$dJ0MarCnvybugQnUdxRaFeepkITShF3xL9Cs2dEM9DFDPL5f8uQiW",
+  "dob": "1988-08-06T18:30:00.000Z",
+  "address": "Hebbal,Bangalore",
+  "status": "Active",
+  "balance": 10108.87,
+  "transactions": [
+    {
+      "date": {
+        "$date": "2024-08-25T05:17:03.489Z"
+      },
+      "amount": 10000,
+      "description": "Initial Balance Credited",
+      "type": "credit"
+    },
+    {
+      "date": {
+        "$date": "2024-08-25T08:12:26.616Z"
+      },
+      "amount": 10,
+      "type": "credit"
+    },
+    {
+      "date": {
+        "$date": "2024-08-25T08:13:24.043Z"
+      },
+      "amount": 88.69,
+      "type": "credit"
+    },
+    {
+      "date": {
+        "$date": "2024-08-25T08:54:10.856Z"
+      },
+      "amount": 100,
+      "type": "credit"
+    },
+    {
+      "date": {
+        "$date": "2024-08-25T09:35:52.602Z"
+      },
+      "amount": 8.87,
+      "type": "credit"
+    }
+  ],
+  "__v": 4,
+  "role": "user"
 },
 {
   "_id": {
-    "$oid": "66c8ef41af2c8b527fd81d84"
+    "$oid": "66cb02e041aeff96640bef67"
   },
-  "accountNumber": "BS37595080",
-  "fullName": "Sham Sundar",
-  "fname": "Sham",
-  "lname": "Sundar",
-  "mobile": 9011221121,
-  "address": "Karvar Nagar,Bangalore",
-  "balance": 10000,
+  "accountNumber": "BS70669061",
+  "fullName": "Ramu Reddy",
+  "fname": "Ramu",
+  "lname": "Reddy",
+  "email": "ramu@gmail.com",
+  "mobile": 9089089081,
+  "password": "$2b$10$OVIdK4QLLA8YTe4MSw395et1GJQjg9iEz5cvMeCTltYt949fWXXrW",
+  "dob": "1990-08-09T18:30:00.000Z",
+  "address": "Kammanahalli, Bangalore",
   "status": "Active",
+  "balance": 9491.31,
+  "transactions": [
+    {
+      "date": {
+        "$date": "2024-08-25T10:09:36.720Z"
+      },
+      "amount": 10000,
+      "description": "Initial Balance Credited",
+      "type": "credit"
+    },
+    {
+      "date": {
+        "$date": "2024-08-25T10:58:48.120Z"
+      },
+      "amount": 100,
+      "description": "Testing",
+      "type": "debit"
+    },
+    {
+      "date": {
+        "$date": "2024-08-25T11:26:27.162Z"
+      },
+      "amount": 100,
+      "description": "Testing",
+      "type": "debit"
+    },
+    {
+      "date": {
+        "$date": "2024-08-25T11:27:26.899Z"
+      },
+      "amount": 100,
+      "description": "Testing",
+      "type": "debit"
+    },
+    {
+      "date": {
+        "$date": "2024-08-25T11:27:28.184Z"
+      },
+      "amount": 100,
+      "description": "Testing",
+      "type": "debit"
+    },
+    {
+      "date": {
+        "$date": "2024-08-25T11:28:21.419Z"
+      },
+      "amount": 100,
+      "description": "Testing",
+      "type": "debit"
+    },
+    {
+      "date": {
+        "$date": "2024-08-25T11:30:15.004Z"
+      },
+      "amount": 100,
+      "description": "Testing",
+      "type": "debit"
+    },
+    {
+      "date": {
+        "$date": "2024-08-25T11:30:16.089Z"
+      },
+      "amount": 100,
+      "description": "Testing",
+      "type": "debit"
+    },
+    {
+      "date": {
+        "$date": "2024-08-25T11:31:26.893Z"
+      },
+      "amount": 100,
+      "description": "Testing",
+      "type": "debit"
+    },
+    {
+      "date": {
+        "$date": "2024-08-25T11:32:03.911Z"
+      },
+      "amount": 100,
+      "description": "Testing",
+      "type": "debit"
+    },
+    {
+      "date": {
+        "$date": "2024-08-25T11:32:24.174Z"
+      },
+      "amount": 100,
+      "description": "Testing",
+      "type": "debit"
+    },
+    {
+      "date": {
+        "$date": "2024-08-25T11:33:32.860Z"
+      },
+      "amount": 100,
+      "description": "Testing",
+      "type": "debit"
+    }
+  ],
+  "__v": 11,
+  "role": "user"
+},
+{
+  "_id": {
+    "$oid": "66cb248416f2b7f9edaeadf7"
+  },
+  "accountNumber": "BS10000000",
+  "fullName": "Admin",
+  "fname": "Admin",
+  "lname": "Admin",
+  "email": "admin@gmail.com",
+  "mobile": 9900990099,
+  "password": "$2b$10$fhl0XxZJtq56935BJKP/j.eDycK6.89FG7RE/kI1dWkRCM1j0gzja",
+  "dob": "12/12/1990",
+  "address": "",
+  "status": "Active",
+  "balance": 0,
+  "transactions": [],
   "__v": 0,
-  "email": "sham@gmail.com",
-  "password": "sham123"
+  "role": "admin"
 },
 {
   "_id": {
-    "$oid": "66c8f50cde0eee4b209dae1d"
+    "$oid": "66cb2fdbdbec5aa91ad1a36e"
   },
-  "accountNumber": "BS60917980",
-  "fullName": "Umar Khazi",
-  "fname": "Umar",
-  "lname": "Khazi",
-  "email": "umar@gmail.com",
-  "mobile": 9019029031,
-  "password": "$2b$10$GlTpdUpdoYDRSvGH8j/2b.tLpPlkKeaSgK9OP9ZQuuNz22ztTdUoG",
-  "address": "Kalyan Nagar,Bangalore",
-  "balance": 10000,
+  "accountNumber": "BS48819168",
+  "fullName": "Mohammed Rafiq",
+  "fname": "Mohammed",
+  "lname": "Rafiq",
+  "email": "rafiq@gmail.com",
+  "mobile": 9916899322,
+  "password": "$2b$10$eut7MzuKwxlUgJwwtRt79eODt0Zm1UgdtSJwqxS6MlgdHQahhyOLO",
+  "dob": "1988-07-30T18:30:00.000Z",
+  "address": "Hebbal,Bangalore",
   "status": "Active",
+  "balance": 10000,
+  "role": "user",
+  "transactions": [
+    {
+      "date": {
+        "$date": "2024-08-25T13:21:31.863Z"
+      },
+      "amount": 10000,
+      "description": "Initial Balance Credited",
+      "type": "credit"
+    }
+  ],
   "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66cb42e0dbec5aa91ad1a415"
+  },
+  "accountNumber": "BS64539758",
+  "fullName": "Rafiya Begum",
+  "fname": "Rafiya",
+  "lname": "Begum",
+  "email": "rafiya@gmial.com",
+  "mobile": 7788665544,
+  "password": "$2b$10$25w5jeKtchbLF24k8PErZuDYjC8iXBluUjlLDiYqvVGqty4YhFUGy",
+  "dob": "1998-08-13T18:30:00.000Z",
+  "address": "Saptapur,Dharwad",
+  "status": "Active",
+  "balance": 9950,
+  "role": "user",
+  "transactions": [
+    {
+      "date": {
+        "$date": "2024-08-25T14:42:40.464Z"
+      },
+      "amount": 10000,
+      "description": "Initial Balance Credited",
+      "type": "credit"
+    },
+    {
+      "date": {
+        "$date": "2024-08-25T14:49:38.012Z"
+      },
+      "amount": 100,
+      "description": "Emergency amount sent",
+      "type": "debit"
+    },
+    {
+      "date": {
+        "$date": "2024-08-25T14:51:30.829Z"
+      },
+      "amount": 100,
+      "description": "Sending 88 euro",
+      "type": "debit"
+    },
+    {
+      "date": {
+        "$date": "2024-08-25T14:54:54.900Z"
+      },
+      "amount": 100,
+      "type": "credit",
+      "description": "Snacks party"
+    },
+    {
+      "date": {
+        "$date": "2024-08-25T15:13:19.837Z"
+      },
+      "amount": 50,
+      "description": "Send amount as Birthday gift",
+      "type": "credit"
+    }
+  ],
+  "__v": 4
+},
+{
+  "_id": {
+    "$oid": "66cb4403dbec5aa91ad1a41a"
+  },
+  "accountNumber": "BS98874771",
+  "fullName": "Arifa banu",
+  "fname": "Arifa",
+  "lname": "banu",
+  "email": "arifa@gmail.com",
+  "mobile": 9875643124,
+  "password": "$2b$10$O5Rshwq3bcDjFHDsAPAQ5ehNT5LMZzSqgLwS7cWBm5RWx1..rh90y",
+  "dob": "1999-08-13T18:30:00.000Z",
+  "address": "jayanagar,saptapur",
+  "status": "Active",
+  "balance": 20038.69,
+  "role": "user",
+  "transactions": [
+    {
+      "date": {
+        "$date": "2024-08-25T14:47:31.636Z"
+      },
+      "amount": 20000,
+      "description": "Initial Balance Credited",
+      "type": "credit"
+    },
+    {
+      "date": {
+        "$date": "2024-08-25T14:49:38.034Z"
+      },
+      "amount": 100,
+      "type": "credit",
+      "description": "Snacks party"
+    },
+    {
+      "date": {
+        "$date": "2024-08-25T14:51:30.849Z"
+      },
+      "amount": 88.69,
+      "description": "Sending 88 euro",
+      "type": "credit"
+    },
+    {
+      "date": {
+        "$date": "2024-08-25T14:54:54.890Z"
+      },
+      "amount": 100,
+      "description": "Returning emergency amount",
+      "type": "debit"
+    },
+    {
+      "date": {
+        "$date": "2024-08-25T15:13:19.807Z"
+      },
+      "amount": 50,
+      "description": "Send amount as Birthday gift",
+      "type": "debit"
+    }
+  ],
+  "__v": 4
 }]
