@@ -8,20 +8,21 @@
     align-items: center;
     margin: 16px;
     padding-top: 100px;
-}
-
-.dashCont > div {
+  }
+  
+  .dashCont > div {
     background-color: #fdfdfd;
-    height: 155px;
+    height: 120px;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.2rem;
+    font-size: 1rem;
     padding: 1rem;
     cursor: pointer;
-}
-
-.dashCont > div:hover {
+  }
+  
+  .dashCont > div:hover {
     background-color: dodgerblue;
     color: white;
-}
+  }
+  

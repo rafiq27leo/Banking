@@ -1,22 +1,33 @@
-tr.trHead>th:first-child,tr.trHead>th:nth-child(4),tr.trHead>th:nth-child(5),tr.trHead>th:nth-child(9), tr.trHead>th:last-child,
-tr.trBody > td:first-child,tr.trBody > td:nth-child(4),tr.trBody > td:nth-child(5),tr.trBody > td:nth-child(9), tr.trBody > td:last-child{
-    display: none;
-}
-.table>thead>tr>th {
+.table > thead > tr > th {
     text-transform: capitalize;
-}
-
-.table>:not(caption)>*>* {
+  }
+  
+  .table > :not(caption) > * > * {
     text-align: left;
     padding: 10px 35px;
-}
-
-.renderDataHldrCls {
-    padding: 0px 3rem;
+  }
+  
+  .renderDataHldrCls {
+    padding: 20px 3rem 0px 3rem;
     font-size: 15px;
-}
-
-.padding-top-80 {
+  }
+  
+  .padding-top-80 {
     padding-top: 80px;
-}
-
+  }
+  .react-datepicker-wrapper {
+    display: block !important;
+  }
+  
+  span.visiblepass {
+    position: absolute;
+    right: 135px;
+    margin-top: -37px;
+    background: #2761b7;
+    padding: 6px 10px;
+    font-size: 16px;
+    color: #fff;
+    text-transform: capitalize;
+    cursor: pointer;
+  }
+  
