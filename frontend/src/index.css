@@ -1,4 +1,4 @@
-@import url('http://fonts.googleapis.com/css?family=Fira+Sans:400,500,600,700,800');
+@import url("http://fonts.googleapis.com/css?family=Fira+Sans:400,500,600,700,800");
 
 * {
   box-sizing: border-box;
@@ -11,22 +11,31 @@ body {
   font-weight: 400;
 }
 
-h1,h2,h3,h4,h5,h6,span,label {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span,
+label {
   font-weight: 500;
 }
 
-html,body,.App, .auth-wrapper{
+html,
+body,
+.App,
+.auth-wrapper {
   width: 100vw;
   height: 100vh;
 }
 
-
-.navbar-light{
+.navbar-light {
   background-color: #fff;
-  box-shadow: 0px 14px 80px rgb(34,35,58,0.2);
+  box-shadow: 0px 14px 80px rgb(34, 35, 58, 0.2);
 }
 
-.auth-wrapper{
+.auth-wrapper {
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -34,14 +43,14 @@ html,body,.App, .auth-wrapper{
   position: absolute;
 }
 
-.auth-wrapper h3{
+.auth-wrapper h3 {
   line-height: 1;
   margin: 0;
   text-align: center;
   padding-bottom: 20px;
 }
 
-.auth-inner{
+.auth-inner {
   margin: auto;
   width: 450px;
   border-radius: 5px;
@@ -55,7 +64,7 @@ html,body,.App, .auth-wrapper{
 }
 
 li.nav-item > button {
-  background: dodgerblue;
+  background: #304c68;
   border: none;
   margin: 3px 10px;
   padding: 5px 15px;
@@ -63,6 +72,49 @@ li.nav-item > button {
   border-radius: 5px;
 }
 
+.btn-primary {
+  background: #304c68 !important;
+  border: none !important;
+  padding: 10px 15px !important;
+  font-size: 14px !important;
+}
+
 li.nav-item {
   padding: 0px 5px;
+}
+
+.password-input-container {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.password-input {
+  padding-right: 40px; /* Space for the toggle button */
+}
+
+.password-toggle-btn {
+  position: absolute;
+  right: 88px;
+  margin-top: -37px;
+  background: #4170b5 !important;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: #fff;
+  padding: 4px 10px;
+  border-radius: 0px 5px 5px 0px;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+  color: rgb(48 75 103) !important;
+  font-weight: bold;
+  border-bottom: 3px solid rgb(48 75 103);
+}
+
+a.navbar-brand {
+  color: rgb(48 75 103);
+  font-size: x-large;
+  font-weight: bolder;
 }
